@@ -1,0 +1,51 @@
+{
+  "title": "\"Revolutionizing Education: A 360-Degree Journey towards Limitless Learning\"",
+  "scenes": [
+    {
+      "scene1": {
+        "description": "Scene 1 takes place in a virtual classroom. The room is equipped with interactive whiteboards, desks with tablets, and a teacher's desk at the front.",
+        "educationalContent": "The document discusses the benefits of using technology in education. It highlights how interactive whiteboards and tablets can enhance student engagement and learning outcomes.",
+        "transition": {
+          "tag": "Tag Door",
+          "targetScene": "scene2"
+        }
+      }
+    },
+    {
+      "scene2": {
+        "description": "Scene 2: The Rainforest",
+        "educationalContent": "In this scene, the user is transported to a lush rainforest. They are surrounded by tall trees, vibrant flowers, and the sound of chirping birds. The immersive experience allows the user to explore the different layers of the rainforest ecosystem and learn about its biodiversity, including various species of plants, animals, and insects.",
+        "transition": {
+          "tagDoor": "scene3"
+        }
+      }
+    },
+    {
+      "scene3": {
+        "description": "Scene 3: The Human Body",
+        "educationalContent": "In this scene, the user is transported inside the human body to explore its different systems. The user can see the skeletal system, muscular system, circulatory system, respiratory system, and digestive system. Each system is labeled with detailed information about its functions and the organs it comprises. The user can rotate and zoom in to get a better understanding of how the systems work together.",
+        "transition": {
+          "tagDoor": "scene4"
+        }
+      }
+    },
+    {
+      "scene": 4,
+      "description": "Scene 4 takes place in a historical museum. The room is filled with artifacts and displays from various time periods.",
+      "educational_content": "The educational content of this scene focuses on the importance of preserving historical artifacts and the role of museums in preserving and showcasing history. The narrator explains how museums collect, research, and care for artifacts to educate and inspire future generations.",
+      "transition": {
+        "tag": "Tag Door",
+        "target_scene": "Scene 5"
+      }
+    },
+    {
+      "scene5": {
+        "description": "Scene 5 takes place in a laboratory. The camera pans around to show various scientific equipment and tools, including beakers, test tubes, and microscopes.",
+        "educationalContent": "The educational content in this scene focuses on the importance of scientific research and experimentation. It highlights how scientists use various tools and equipment in a laboratory to conduct experiments and make discoveries.",
+        "transition": {
+          "tagDoor": "scene6"
+        }
+      }
+    }
+  ]
+}
