@@ -1,49 +1,91 @@
 {
-  "title": "\"Revolutionizing Education: A 360-Degree Journey towards Limitless Learning\"",
+  "title": "\"Immersive Learning: The Journey to 360-Degree Education\"",
   "scenes": [
     {
       "scene1": {
-        "description": "Scene 1 takes place in a virtual classroom. The room is equipped with interactive whiteboards, desks with tablets, and a teacher's desk at the front.",
-        "educationalContent": "The document discusses the benefits of using technology in education. It highlights how interactive whiteboards and tablets can enhance student engagement and learning outcomes.",
+        "description": "Scene 1: Introduction to Climate Change",
+        "content": "This scene is set in a virtual classroom where the teacher is giving a lecture on climate change. The students are seated in a circular arrangement around the teacher, allowing them to look around and observe their surroundings. The teacher explains the basic concepts of climate change, such as the greenhouse effect, global warming, and the role of human activities in contributing to climate change.",
         "transition": {
-          "tag": "Tag Door",
+          "tag": "Tag QCM",
+          "answers": [
+            "A. What is the main cause of climate change?",
+            "B. How does climate change affect biodiversity?",
+            "C. What are the potential solutions to mitigate climate change?",
+            "D. How can individuals reduce their carbon footprint?"
+          ],
           "targetScene": "scene2"
         }
       }
     },
     {
       "scene2": {
-        "description": "Scene 2: The Rainforest",
-        "educationalContent": "In this scene, the user is transported to a lush rainforest. They are surrounded by tall trees, vibrant flowers, and the sound of chirping birds. The immersive experience allows the user to explore the different layers of the rainforest ecosystem and learn about its biodiversity, including various species of plants, animals, and insects.",
+        "description": "Scene 2 takes place in a laboratory setting. The 360-degree view shows various lab equipment and a whiteboard with chemical formulas and equations written on it.",
+        "educational_content": "The educational content in this scene focuses on chemistry concepts. The whiteboard displays chemical formulas and equations, providing students with an opportunity to learn about different compounds, reactions, and stoichiometry.",
         "transition": {
-          "tagDoor": "scene3"
+          "tagQCM": {
+            "question": "Which of the following is a balanced chemical equation?",
+            "answers": [
+              "a) H2O + CO2 -> H2CO3",
+              "b) NaCl + H2O -> NaOH + HCl",
+              "c) Fe + O2 -> Fe2O3",
+              "d) CH4 + O2 -> CO2 + H2O"
+            ],
+            "targetScene": "scene3"
+          }
         }
       }
     },
     {
       "scene3": {
-        "description": "Scene 3: The Human Body",
-        "educationalContent": "In this scene, the user is transported inside the human body to explore its different systems. The user can see the skeletal system, muscular system, circulatory system, respiratory system, and digestive system. Each system is labeled with detailed information about its functions and the organs it comprises. The user can rotate and zoom in to get a better understanding of how the systems work together.",
+        "description": "Scene 3: The Coral Reef",
+        "educationalContent": "In this scene, the viewer is immersed in a vibrant and colorful coral reef ecosystem. They can see a variety of coral species, fish swimming among the corals, and other marine creatures. The narrator explains the importance of coral reefs as biodiversity hotspots and the threats they face, such as climate change, pollution, and overfishing.",
         "transition": {
-          "tagDoor": "scene4"
+          "tagQCM": {
+            "question": "Which of the following is a threat to coral reefs?",
+            "answers": [
+              "A. Climate change",
+              "B. Deforestation",
+              "C. Oil spills",
+              "D. None of the above"
+            ],
+            "targetScene": "scene4"
+          }
         }
       }
     },
     {
-      "scene": 4,
-      "description": "Scene 4 takes place in a historical museum. The room is filled with artifacts and displays from various time periods.",
-      "educational_content": "The educational content of this scene focuses on the importance of preserving historical artifacts and the role of museums in preserving and showcasing history. The narrator explains how museums collect, research, and care for artifacts to educate and inspire future generations.",
-      "transition": {
-        "tag": "Tag Door",
-        "target_scene": "Scene 5"
+      "scene4": {
+        "description": "Scene 4: Volcanic Eruptions",
+        "educational_content": "This scene depicts a volcanic eruption, showcasing the power and destructive force of nature. The viewer can observe a volcano spewing lava and ash into the air, with a voiceover explaining the different types of volcanic eruptions and their impact on the environment. The educational content focuses on the causes of volcanic eruptions, the types of volcanoes, and the consequences of volcanic activity, such as the formation of new land and the release of harmful gases.",
+        "transition": {
+          "Tag QCM": {
+            "question": "What are the three main types of volcanoes?",
+            "answers": [
+              "Shield, Cinder Cone, Composite",
+              "Stratovolcano, Caldera, Lava Dome",
+              "Pyroclastic Cone, Fissure Vent, Maar",
+              "Lava Plateau, Crater Cone, Tuff Ring"
+            ],
+            "target_scene": "scene5"
+          }
+        }
       }
     },
     {
       "scene5": {
-        "description": "Scene 5 takes place in a laboratory. The camera pans around to show various scientific equipment and tools, including beakers, test tubes, and microscopes.",
-        "educationalContent": "The educational content in this scene focuses on the importance of scientific research and experimentation. It highlights how scientists use various tools and equipment in a laboratory to conduct experiments and make discoveries.",
+        "description": "Scene 5: Exploring the Solar System",
+        "educationalContent": "In this scene, the viewer is transported to outer space and can see the planets of our solar system rotating around the sun. The viewer can zoom in and out to see the different sizes and distances of the planets. Information about each planet, such as its name, size, distance from the sun, and key characteristics, is displayed as the viewer interacts with each planet.",
         "transition": {
-          "tagDoor": "scene6"
+          "tagQCM": {
+            "question": "Which planet is the closest to the sun?",
+            "answers": [
+              "Mars",
+              "Venus",
+              "Mercury",
+              "Earth"
+            ],
+            "targetScene": "scene6"
+          }
         }
       }
     }
